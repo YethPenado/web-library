@@ -1,0 +1,79 @@
+/*GENERAL*/
+*{
+    font-family: arial;
+    font-weight: bold;
+}
+
+/*CONTAINER*/
+#container{
+    margin: 0px;
+    width: auto;
+    height: 96px;
+    background-color: black;
+    padding: 0px 180px 0px 200px; 
+}
+
+/*Menu Principal*/
+
+.menu{
+    display: inline-block;
+    margin-top: 46px;
+}
+
+.menu a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
+.menu + .menu{
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Dropdown*/
+.dropdown{
+    position: absolute;
+    background-color: #636161;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+
+.dropdown li a{
+    color: black;
+}
+
+/*Hover*/
+li:hover{
+    font-size: 14px;
+}
+
+.one, .two, .three{
+    display: none;
+}
+
+.first:hover .one,
+.second:hover .two,
+.third:hover .three{
+    display: block;
+}
+
+.three{
+    position: absolute;
+    left: 150px;
+    top: 85px;
+}
+
+ul.dropdown, .dropdown li{
+    padding: 0px;
+    width: 150px;
+}
